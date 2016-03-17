@@ -15,8 +15,9 @@ $ npm i react-mover
 ```es6
 import React from 'react'
 import Mover from 'react-mover'
-const MovableBlock = (
-    <Mover>
+
+export default const MovableComponent = (
+    <Mover style={{display: 'block', position: 'absolute', cursor: 'move'}}>
         <span>Drag me to move</span>
     </Mover>
 )
