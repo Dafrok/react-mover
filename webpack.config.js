@@ -12,7 +12,7 @@ module.exports = {
   ],
   output: {
     path: path.join(__dirname, './dist'),
-    publicPath: "/",
+    publicPath: "./dist",
     filename: 'demo.js'
   },
   module: {
@@ -29,6 +29,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'react-mover',
       filename: '../index.html',
+      inject: true
     //   template: '../templates/index.html'
     }),
     new webpack.DefinePlugin({
