@@ -1,4 +1,4 @@
-import './style.scss'
+import './style.styl'
 import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
 import Mover from '../lib/mover.js'
