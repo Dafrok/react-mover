@@ -18,7 +18,7 @@ module.exports = {
   module: {
     loaders: [
       {test: /\.js?$/, exclude: /node_modules/, loader: "react-hot!babel"},
-      {test: /\.scss$/, exclude: /node_modules/, loader: "style!css!postcss!sass"}
+      {test: /\.styl$/, exclude: /node_modules/, loader: "style!css!postcss!stylus"}
     ]
   },
   postcss: [autoprefixer],
