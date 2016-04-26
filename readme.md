@@ -1,4 +1,4 @@
-# react-mover@development
+# react-mover
 
 ## Description
 A wrapper for moving target elements.
