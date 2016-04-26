@@ -1,7 +1,7 @@
-import './style.scss'
+import './style.styl'
 import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
-import Mover from '../lib/mover.js'
+import Mover from '../index.js'
 
 class Demo extends Component {
     constructor(props) {
@@ -10,7 +10,7 @@ class Demo extends Component {
     render () {
         return (
             <Mover className="mover" style={{display: 'inline-block', position: 'relative'}}>
-                <div>Drag me.</div>
+                <div>Drag me!</div>
             </Mover>
         )
     }
